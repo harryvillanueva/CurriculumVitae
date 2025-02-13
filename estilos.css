@@ -53,6 +53,25 @@ li a {
    
 }
 
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #3d3d3d;
+    margin: 0 auto;
+    padding: 5px 50px;
+    color: white;
+    width: 70%;
+    
+}
+
+.sticky{
+    position: sticky;
+    top: 1px;
+}
+
 .red{
     background-color: #737373;
     padding: 0px 50px 60px 10px;
@@ -73,7 +92,7 @@ li{
 
 
 .nombre{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: -20px;
     text-transform: uppercase;
 }
@@ -115,6 +134,7 @@ ul .lista{
 .habilidades{
     display: flex;
     justify-content: space-around;
+    
     
 }
 table{
