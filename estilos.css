@@ -14,8 +14,8 @@
     padding: 5px 50px;
     color: white;
     align-items: center;
-   /* position: sticky;
-    top: 1px;*/
+
+ 
 }
 
 li a {
@@ -123,6 +123,30 @@ ul .lista{
     line-height: 15px;
 }
 
+tr td a {
+    color: #3d3d3d;
+    
+    transition: transform 0.3s ease;
+}
+
+tr td a:hover {
+    color: #e50c0c;
+    transform: scale(1.5);
+    
+}
+
+
+ td a i{
+    
+    
+    transition: transform 0.3s ease;
+}
+
+td a i:hover {
+    color: #e50c0c;
+    transform: scale(1.5);
+    
+}
 
 
 
@@ -167,6 +191,71 @@ td{
 .izquierda{
     text-align: left;
     
+}
+@media all and (max-width: 600px) {
+    .flex{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        
+        margin: 0 auto;
+        align-items: center;
+    }
+    .nombre{
+        font-size: 40px;
+        
+        text-transform: uppercase;
+    }
+    .titulo{
+        font-size: 25px;
+        
+        text-transform: uppercase;
+    
+    }
+
+    .menu{
+
+        display: none;
+        
+        
+    }
+    .imagen{
+        width: 200px;
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-left: 0px;
+        
+    }
+
+    .aside{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 5px 50px;
+        color: white;
+        
+        
+    }
+    .habilidades{
+        display: block;
+     
+    }
+    .w-70 {
+        width: 100%;
+    }
+
+    .negro {
+        
+        padding-left: 0px;
+    }
+
+    .red {
+        background-color: #737373;
+        padding: 0px 50px 60px 10px;
+        margin-left: -50px;
+        margin-top: -5px;
+        width: 70vh;
+    }
 }
 
 
